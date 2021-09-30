@@ -21,6 +21,7 @@ public class RandomNumbers {
     while (keepGoing){
       System.out.print("Keep going? (y/n): ");
       answer = scan.nextLine();
+      answer = answer.toLowerCase();
       if (answer.equals("y")){
         // Print a new random
         number = (int) (Math.random()*MAX +1);
