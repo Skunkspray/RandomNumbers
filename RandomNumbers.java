@@ -2,7 +2,7 @@
 // CS-151
 // Random Numbers
 
-// This class demonstrates random number generation
+// This class shows random number generation
 import java.util.Scanner;
 
 public class RandomNumbers {
@@ -21,6 +21,7 @@ public class RandomNumbers {
     while (keepGoing){
       System.out.print("Keep going? (y/n): ");
       answer = scan.nextLine();
+      answer = answer.toLowerCase();
       if (answer.equals("y")){
         // Print a new random
         number = (int) (Math.random()*MAX +1);
