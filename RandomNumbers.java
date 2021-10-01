@@ -2,7 +2,7 @@
 // CS-151
 // Random Numbers
 
-// This class demonstrates random number generation
+// This class shows random number generation
 import java.util.Scanner;
 
 public class RandomNumbers {
